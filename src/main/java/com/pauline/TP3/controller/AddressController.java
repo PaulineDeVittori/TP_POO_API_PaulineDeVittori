@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class AddressController {
     @Autowired
     AddressRepository addressRepository;
-    @GetMapping("/adresses")
+    @GetMapping("/addresses")
     public String showAddresses(Model model) {
         model.addAttribute("allAddresses", addressRepository.findAll());
         return "addresses";

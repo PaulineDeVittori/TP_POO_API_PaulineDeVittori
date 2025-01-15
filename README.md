@@ -66,3 +66,16 @@ Pouvez-vous trouver a quoi sert l'annotation @Autowired du code precedent sur in
 L'annotation @Autowired permet d'activer l'injection automatique de dependance. Cette annotation peut etre placee sur un constructeur, une methode set ou directement sur un attribut.
 
 Elle permet a Spring d'injecter automatiquement des dependances dans la classe, en evitant ainsi le besoin de configuration manuelle
+
+# pour la question 30
+
+Pour ajouter Bootstrap à mon projet, j'ai ajouté ces balises dans le fichier addresses.html
+meta name="viewport" content="width=device-width, initial-scale=1"
+link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+
+# pour l'étape 6
+
+Il faut un token pour appeler meteoConcept
+il faut appeler l'url : https://api.meteo-concept.com/api/forecast/daily
+

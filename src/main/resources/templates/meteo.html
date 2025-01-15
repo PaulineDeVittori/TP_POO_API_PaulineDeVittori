@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meteo</title>
+</head>
+<body>
+    <p>Météo en fonction de votre adresse</p>
+    <p>Vous avez entré : <span th:text="${receivedValue}"></span></p>
+
+    <p>Météo du jour 1: <span th:text="${meteoJour1}"></span></p>
+    <p>Température du jour 1 min: <span th:text="${tempMinJour1}"></span></p>
+    <p>Température du jour 1 max: <span th:text="${tempMaxJour1}"></span></p>
+</body>
+</html>
